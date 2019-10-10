@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/selvakumarmg/resort-room-booking/static/css/main.b237eed8.chunk.css",
+    "main.js": "/selvakumarmg/resort-room-booking/static/js/main.1c5d3845.chunk.js",
+    "main.js.map": "/selvakumarmg/resort-room-booking/static/js/main.1c5d3845.chunk.js.map",
+    "runtime-main.js": "/selvakumarmg/resort-room-booking/static/js/runtime-main.c1a558b0.js",
+    "runtime-main.js.map": "/selvakumarmg/resort-room-booking/static/js/runtime-main.c1a558b0.js.map",
+    "static/js/2.b3d9a23c.chunk.js": "/selvakumarmg/resort-room-booking/static/js/2.b3d9a23c.chunk.js",
+    "static/js/2.b3d9a23c.chunk.js.map": "/selvakumarmg/resort-room-booking/static/js/2.b3d9a23c.chunk.js.map",
+    "index.html": "/selvakumarmg/resort-room-booking/index.html",
+    "precache-manifest.f2c148d9614d942e4f32dbcd9310721a.js": "/selvakumarmg/resort-room-booking/precache-manifest.f2c148d9614d942e4f32dbcd9310721a.js",
+    "service-worker.js": "/selvakumarmg/resort-room-booking/service-worker.js",
+    "static/css/main.b237eed8.chunk.css.map": "/selvakumarmg/resort-room-booking/static/css/main.b237eed8.chunk.css.map",
+    "static/media/App.css": "/selvakumarmg/resort-room-booking/static/media/room-2.052c7681.jpeg",
+    "static/media/logo.svg": "/selvakumarmg/resort-room-booking/static/media/logo.9f0cccc1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1a558b0.js",
+    "static/js/2.b3d9a23c.chunk.js",
+    "static/css/main.b237eed8.chunk.css",
+    "static/js/main.1c5d3845.chunk.js"
+  ]
+}
