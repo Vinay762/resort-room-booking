@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import {
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+//Import Screens
+import Home from './pages/Home'
+import Room from './pages/Room'
+import SignleRoom from './pages/SingleRoom'
+import Error from './pages/Error'
+import SingleRoom from './pages/SingleRoom';
+//Import components
+import Navbar from './component/Navbar';
+
+
+// created by selvakumar on 10/10/2019
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <> 
+    <Navbar />
+    <Switch>
+     <Route exact path="/" component={Home} />
+     <Route exact path="/rooms/" component={Room} />
+     <Route exact path="/rooms/:slug" component={SingleRoom} />
+     <Route component={Error} />
+
+    </Switch>
+     
+    </>
   );
 }
 
